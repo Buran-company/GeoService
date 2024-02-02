@@ -1,0 +1,28 @@
+info:
+  contact: {}
+  description: '''Cause today... is a day... of forgiveness! And to you... We can
+    only say... A simple answer... Oh, hey, hey, hey!'
+  title: My First API
+  version: 0.0.0.0.0.0.0.1
+paths:
+  /api/address/geocode:
+    get:
+      produces:
+      - application/json
+      responses: {}
+      summary: Retrieves all possible Info based on given IP
+  /api/address/search:
+    get:
+      produces:
+      - application/json
+      responses: {}
+      summary: Retrieves all possible Info based on given Adress
+  /api/login:
+    get:
+      responses: {}
+      summary: Just Logging In
+  /api/register:
+    get:
+      responses: {}
+      summary: Registering new User!
+swagger: "2.0"
